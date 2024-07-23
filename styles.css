@@ -37,6 +37,8 @@ body, html {
     width: 200px; /* Increased from 100px to 200px */
     height: auto;
     transition: transform 0.5s;
+    will-change: transform;
+    transform: translate3d(0, 0, 0);
 }
 
 .scroll-text {
@@ -45,4 +47,5 @@ body, html {
     margin-top: 20px; /* Increased margin for better spacing */
     opacity: 0;
     transition: opacity 0.5s;
+    will-change: opacity;
 }
