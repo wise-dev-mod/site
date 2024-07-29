@@ -19,7 +19,7 @@ function handleScroll() {
     }
 
     // Autres effets de défilement
-    if (scrollPosition > 0.1) {
+    if (scrollPosition > 0.35) {
         flowerContainer.style.opacity = Math.min(1, scrollPosition);
         scrollText.style.opacity = Math.min(1, (scrollPosition - 0.1) * 2);
 
