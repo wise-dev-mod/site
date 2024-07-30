@@ -35,14 +35,13 @@ nav .main_pages a
  
 nav a:hover 
 {
-    background: #5A5766
+    background: #ff6ec5;
 }
 
 body, html {
     margin: 0;
     padding: 0;
     height: 200%;
-    overflow-x: hidden;
     font-family: var(--font-family);
     background-color: var(--background-color-start);
     transition: background-color 0.5s;
